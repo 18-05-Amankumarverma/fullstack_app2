@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT = 3000 | 4000
+const PORT = 4000
 
 app.get('/',(req,res)=>{
     return res.sendStatus(200).json({message:"success"})
